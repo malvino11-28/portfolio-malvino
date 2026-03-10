@@ -21,15 +21,6 @@ Atualmente focado em construir projetos práticos para ganhar experiência real 
 
 ## Projetos em destaque
 
-- **[Projeto 1 - Nome do Projeto]**  
-  Descrição curta. Tecnologias: React, Tailwind, Supabase.  
-  🔗 [Demo] | [Repositório]
-
-- **[Sistema de Controle de Estoque Simples]** (em desenvolvimento)  
-  Inspirado nos processos do Almoxarifado onde atuo.  
-  Funcionalidades: cadastro de itens, entrada/saída, alertas de estoque baixo.  
-  Tecnologias: Next.js, Tailwind CSS, Supabase.
-
 Mais projetos no meu [GitHub](https://github.com/Malvino30-06?tab=repositories).
 
 ## Tecnologias utilizadas neste portfólio
