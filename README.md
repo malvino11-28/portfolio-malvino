@@ -1,3 +1,5 @@
+# PROJETO ATUALMENTE EM DESENVOLVIMENTO
+
 # Portfólio Pessoal - Kauan Malvino Garcia
 
 Bem-vindo ao meu portfólio online!  
