@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes } from "react-router-dom";
-import "./App.css";
 import { Route } from "lucide-react";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
