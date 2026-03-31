@@ -1,12 +1,17 @@
+import { BrowserRouter, Routes } from "react-router-dom";
 import "./App.css";
+import { Route } from "lucide-react";
+import { Home } from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-blue-400">
-        Tailwind v4 funcionando!
-      </h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
