@@ -27,13 +27,12 @@ export const ContactSection = () => {
         },
       );
 
-      setTimeout(() => {
-        toast({
-          title: "Mensagem enviada!",
-          description: "Obrigado pela mensagem. Responderei em breve.",
-        });
-        setIsSubmitting(false);
-      }, 1500);
+      toast({
+        title: "Mensagem enviada!",
+        description: "Obrigado pela mensagem. Responderei em breve.",
+      });
+
+      formRef.current.reset(); // 🔥 importante
     } catch (error) {
       console.error(error);
 
@@ -121,7 +120,7 @@ export const ContactSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6">Envie uma Mensagem</h3>
 
-            <form className="space-y-6" ref={formRef} onsubmit={handleSubmit}>
+            <form className="space-y-6" ref={formRef} onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"
