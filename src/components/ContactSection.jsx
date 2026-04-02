@@ -3,23 +3,48 @@ import WhatsappIcon from "./WhatsappIcon";
 import LinkedinIcon from "./LinkedinIcon";
 import { cn } from "@/lib/utils.js";
 import { useToast } from "@/hooks/use-toast";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export const ContactSection = () => {
+  const formRef = useRef(null);
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!formRef.current) return;
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        },
+      );
+
+      setTimeout(() => {
+        toast({
+          title: "Mensagem enviada!",
+          description: "Obrigado pela mensagem. Responderei em breve.",
+        });
+        setIsSubmitting(false);
+      }, 1500);
+    } catch (error) {
+      console.error(error);
+
       toast({
-        title: "Mensagem enviada!",
-        description: "Obrigado pela mensagem. Responderei em breve.",
+        title: "Erro ao enviar",
+        description: "Não foi possível enviar sua mensagem.",
+        variant: "destructive",
       });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
 
   return (
@@ -96,7 +121,7 @@ export const ContactSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6">Envie uma Mensagem</h3>
 
-            <form className="space-y-6">
+            <form className="space-y-6" ref={formRef} onsubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"

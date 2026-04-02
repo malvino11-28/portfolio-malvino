@@ -21,9 +21,9 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
 
 Atualmente focado em construir projetos práticos para ganhar experiência real e contribuir em equipes.
 
-## Projetos em destaque
+## Deploy
 
-Mais projetos no meu [GitHub](https://github.com/Malvino30-06?tab=repositories).
+Acesse o meu [portfolio](https://portfolio-malvino.vercel.app).
 
 ## Tecnologias utilizadas neste portfólio
 
