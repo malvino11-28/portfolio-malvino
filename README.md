@@ -8,6 +8,9 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
 
 **Site ao vivo:** [https://portfolio-malvino.vercel.app](https://portfolio-malvino.vercel.app)
 
+![](image.png)
+![](image-1.png)
+
 ## Sobre mim
 
 - Presidente Prudente, SP
@@ -21,10 +24,6 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
 
 Atualmente focado em construir projetos práticos para ganhar experiência real e contribuir em equipes.
 
-## Deploy
-
-Acesse o meu [portfolio](https://portfolio-malvino.vercel.app).
-
 ## Tecnologias utilizadas neste portfólio
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -35,6 +34,17 @@ Acesse o meu [portfolio](https://portfolio-malvino.vercel.app).
 - **Deploy:** Vercel
 - **Animações:** Framer Motion (opcional)
 - **Ícones:** Lucide React ou Heroicons
+
+## Funcionalidades
+
+- Navegação entre seções com navbar fixa e menu responsivo
+- Layout responsivo com design moderno e animações suaves
+- Background animado com estrelas e meteoros
+- Exibição de habilidades organizadas por categorias
+- Listagem de projetos com descrição, tecnologias e links
+- Formulário de contato funcional com envio de mensagens via email (EmailJS)
+- Feedback ao usuário com notificações (toast) e estado de envio
+- Exibição de informações de contato com links diretos (Email, WhatsApp, LinkedIn)
 
 ## Como rodar localmente
 
