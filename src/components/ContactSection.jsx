@@ -2,8 +2,19 @@ import { Mail, Send } from "lucide-react";
 import WhatsappIcon from "./WhatsappIcon";
 import LinkedinIcon from "./LinkedinIcon";
 import { cn } from "@/lib/utils.js";
+import { useToast } from "@/hooks/use-toast";
 
 export const ContactSection = () => {
+  const { toast } = useToast();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    toast({
+      title: "Mensagem enviada!",
+      description: "Obrigado pela mensagem. Responderei em breve.",
+    });
+    setTimeout(() => {}, 1500);
+  };
+
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -17,7 +28,7 @@ export const ContactSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          {/* Coluna da esquerda */}
+          {/* coluna da esquerda */}
           <div className="space-y-8 flex flex-col items-center w-fit">
             <h3 className="text-2xl font-semibold mb-8">
               Informações de Contato
@@ -71,8 +82,11 @@ export const ContactSection = () => {
             </div>
           </div>
 
-          {/* Coluna da direita */}
-          <div className="bg-card p-8 rounded-lg shadow-xs">
+          {/* coluna da direita */}
+          <div
+            className="bg-card p-8 rounded-lg shadow-xs"
+            onSubmit={handleSubmit}
+          >
             <h3 className="text-2xl font-semibold mb-6">Envie uma Mensagem</h3>
 
             <form className="space-y-6">
