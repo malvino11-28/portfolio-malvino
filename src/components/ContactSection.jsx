@@ -3,16 +3,23 @@ import WhatsappIcon from "./WhatsappIcon";
 import LinkedinIcon from "./LinkedinIcon";
 import { cn } from "@/lib/utils.js";
 import { useToast } from "@/hooks/use-toast";
+import { useState } from "react";
 
 export const ContactSection = () => {
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    toast({
-      title: "Mensagem enviada!",
-      description: "Obrigado pela mensagem. Responderei em breve.",
-    });
-    setTimeout(() => {}, 1500);
+
+    setIsSubmitting(true);
+
+    setTimeout(() => {
+      toast({
+        title: "Mensagem enviada!",
+        description: "Obrigado pela mensagem. Responderei em breve.",
+      });
+      setIsSubmitting(false);
+    }, 1500);
   };
 
   return (
@@ -143,11 +150,12 @@ export const ContactSection = () => {
 
               <button
                 type="submit"
+                disabled={isSubmitting}
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2",
                 )}
               >
-                Enviar Mensagem
+                {isSubmitting ? "Enviando..." : "Enviar Mensagem"}
                 <Send size={16} />
               </button>
             </form>
