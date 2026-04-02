@@ -68,6 +68,74 @@ export const ContactSection = () => {
               </div>
             </div>
           </div>
+
+          <div className="bg-card p-8 rounded-lg shadow-xs">
+            <h3 className="text-2xl font-semibold mb-6"> Envie uma mensagem</h3>
+
+            <form className="space-y-6">
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium mb-2"
+                >
+                  {" "}
+                  Seu nome
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  placeholder="Kauan Malvino..."
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium mb-2"
+                >
+                  {" "}
+                  Seu email
+                </label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  placeholder="exemplo@exemplo.com"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium mb-2"
+                >
+                  {" "}
+                  Mensagem
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                  placeholder="Olá..."
+                />
+              </div>
+
+              <button
+                type="submit"
+                className={cn(
+                  "cosmic-button w-full flex items-center justify-center gap-2",
+                )}
+              >
+                {" "}
+                Enviar Mensagem
+                <Send size={16} />
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
