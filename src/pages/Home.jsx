@@ -1,3 +1,4 @@
+import { Navbar } from "../components/NavBar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 export const Home = () => {
@@ -8,7 +9,7 @@ export const Home = () => {
       {/*Background effects*/}
       <StarBackground />
       {/* Navbar */}
-
+      <Navbar />
       {/*Main content */}
 
       {/* Footer */}
