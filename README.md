@@ -1,8 +1,10 @@
 # Portfólio Pessoal - Kauan Malvino Garcia
 
-Bem-vindo ao meu portfólio online!  
-Sou estudante de Análise e Desenvolvimento de Sistemas (UNOESTE) e estagiário de TI no Almoxarifado Municipal de Presidente Prudente-SP.  
-Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
+Bem-vindo ao meu portfólio!
+
+Sou estudante de Análise e Desenvolvimento de Sistemas (UNOESTE) e atualmente atuo como estagiário de Profissional de TI.
+
+Estou em busca da minha primeira oportunidade como **Desenvolvedor**
 
 **Site ao vivo:** [https://portfolio-malvino.vercel.app](https://portfolio-malvino.vercel.app)
 
@@ -13,11 +15,11 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
 
 - Presidente Prudente, SP
 - Cursando Análise e Desenvolvimento de Sistemas (previsão de conclusão: 2027)
-- Estagiário de TI – Suporte técnico, organização de dados digitais e processos internos
+- Estagiário de TI – Suporte aos colaboradores, organização de dados digitais e processos internos
 - Tecnologias que estou aprendendo e usando:
   - **Frontend:** HTML5, CSS3, JavaScript, React, Tailwind CSS
   - **Backend (básico):** Node.js / Express, Python
-  - **Ferramentas:** Git & GitHub, Vite, Vercel, Supabase (banco + auth)
+  - **Ferramentas:** Git & GitHub, Vercel, Postman
   - Inglês intermediário (leitura e escrita técnica)
 
 Atualmente focado em construir projetos práticos para ganhar experiência real e contribuir em equipes.
@@ -30,8 +32,7 @@ Atualmente focado em construir projetos práticos para ganhar experiência real 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 - **Deploy:** Vercel
-- **Animações:** Framer Motion (opcional)
-- **Ícones:** Lucide React ou Heroicons
+- **Ícones:** Lucide React
 
 ## Funcionalidades
 
@@ -78,4 +79,4 @@ Acesse em http://localhost:5173 _(ou a porta que aparecer)_
 
 - **Email:** malvinodev2@gmail.com
 - **Linkedin:** linkedin.com/in/malvino-garcia
-- **GitHub:** github.com/Malvino30-06
+- **GitHub:** github.com/malvino11-28
