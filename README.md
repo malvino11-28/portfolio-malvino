@@ -13,7 +13,7 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor**
 
 ## Sobre mim
 
-- Presidente Prudente, SP
+- Região Presidente Prudente, SP
 - Cursando Análise e Desenvolvimento de Sistemas (previsão de conclusão: 2027)
 - Estagiário de TI – Suporte aos colaboradores, organização de dados digitais e processos internos
 - Tecnologias que estou aprendendo e usando:

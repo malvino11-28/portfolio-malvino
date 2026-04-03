@@ -8,49 +8,29 @@ const projects = [
     description:
       "API REST desenvolvida com express para gerenciamento de produtos com banco de dados MySQL",
     image: "/projects/image3.png",
-    tags: ["API", "MySQL", "Node", "Bootstrap"],
+    tags: ["MySQL", "Node", "Bootstrap"],
     deployURL: "https://api-gerenciamento-produto.vercel.app/",
-    githubURL: "#",
+    githubURL: "https://github.com/malvino11-28/api-gerenciamento-produto",
   },
   {
     id: 2,
     title: "Portfólio pessoal",
     description:
-      "Aplicação web que calcula e exibe a trajetória de um projétil com base em velocidade e ângulo, integrando frontend em React com backend em Flask",
+      "Aplicação web desenvolvida com React e Tailwind CSS para apresentação de projetos, habilidades e contato. ",
     image: "/projects/image2.png",
-    tags: ["React", "Flask", "API", "Recharts"],
-    deployURL: "#",
-    githubURL: "#",
+    tags: ["React", "Tailwind", "EmailJS", "Vite"],
+    deployURL: "https://portfolio-malvino.vercel.app/",
+    githubURL: "https://github.com/malvino11-28/portfolio-malvino",
   },
   {
     id: 3,
-    title: "Portfólio Pessoal",
+    title: "Autenticador Flask",
     description:
-      "Portfólio desenvolvido com React e Tailwind CSS para apresentação de projetos, habilidades e contato profissional",
-    image: "/projects/exemplo.png",
-    tags: ["React", "Tailwind", "Vite"],
+      "Sistema de autenticação desenvolvido com Flask e MySQL, permitindo cadastro e login de usuários com segurança.",
+    image: "/projects/image.png",
+    tags: ["Python", "Flask", "MySQL"],
     deployURL: "#",
-    githubURL: "#",
-  },
-  {
-    id: 4,
-    title: "Sistema de Tarefas (To-Do)",
-    description:
-      "Aplicação para gerenciamento de tarefas com persistência em localStorage, permitindo criação, edição e exclusão de tarefas",
-    image: "/projects/exemplo.png",
-    tags: ["JavaScript", "CRUD", "LocalStorage"],
-    deployURL: "#",
-    githubURL: "#",
-  },
-  {
-    id: 5,
-    title: "Simulador de Foguete PET",
-    description:
-      "Simulador interativo que calcula parâmetros de lançamento de foguetes PET com base em variáveis físicas como pressão, ângulo e propelente",
-    image: "/projects/exemplo.png",
-    tags: ["JavaScript", "Simulação", "Física"],
-    deployURL: "#",
-    githubURL: "#",
+    githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
   },
 ];
 
@@ -59,7 +39,7 @@ export const ProjectSection = () => {
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Melhores <span className="text-primary">Projetos</span>
+          Projetos em <span className="text-primary">Destaque</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-2-2xl mx-auto">
