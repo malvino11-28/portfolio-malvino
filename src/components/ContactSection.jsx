@@ -32,7 +32,7 @@ export const ContactSection = () => {
         description: "Obrigado pela mensagem. Responderei em breve.",
       });
 
-      formRef.current.reset(); // 🔥 importante
+      formRef.current.reset();
     } catch (error) {
       console.error(error);
 
