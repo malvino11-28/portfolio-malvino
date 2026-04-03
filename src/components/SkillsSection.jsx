@@ -1,30 +1,28 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 const skills = [
-  //EXEMPLO FEITO COM CODEX
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 85, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
-  { name: "Bootstrap", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", level: 85, category: "frontend" },
+  { name: "HTML/CSS", level: 65, category: "frontend" },
+  { name: "JavaScript", level: 60, category: "frontend" },
+  { name: "React", level: 25, category: "frontend" },
+  { name: "Next.js", level: 20, category: "frontend" },
+  { name: "Bootstrap", level: 60, category: "frontend" },
+  { name: "Tailwind CSS", level: 25, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 85, category: "backend" },
-  { name: "Express", level: 85, category: "backend" },
-  { name: "Python", level: 80, category: "backend" },
-  { name: "Flask", level: 75, category: "backend" },
-  { name: "MySQL", level: 75, category: "backend" },
-  { name: "REST APIs", level: 85, category: "backend" },
+  { name: "Node.js", level: 55, category: "backend" },
+  { name: "Express", level: 50, category: "backend" },
+  { name: "Python", level: 50, category: "backend" },
+  { name: "MySQL", level: 50, category: "backend" },
+  { name: "REST APIs", level: 60, category: "backend" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-  { name: "Figma", level: 70, category: "tools" },
-  { name: "Postman", level: 80, category: "tools" },
-  { name: "Vite", level: 85, category: "tools" },
-  { name: "Linux", level: 65, category: "tools" },
+  { name: "Git/GitHub", level: 65, category: "tools" },
+  { name: "VS Code", level: 70, category: "tools" },
+  { name: "Dev-C++", level: 70, category: "tools" },
+  { name: "Postman", level: 50, category: "tools" },
+  { name: "Vite", level: 25, category: "tools" },
+  { name: "Word", level: 70, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

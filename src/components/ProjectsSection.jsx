@@ -2,23 +2,22 @@ import { ExternalLinkIcon } from "lucide-react";
 import { GithubIcon } from "./GithubIcon.jsx";
 
 const projects = [
-  // EXEMPLOS FEITOS COM CODEX
   {
     id: 1,
     title: "API com MySQL",
     description:
       "API REST desenvolvida com express para gerenciamento de produtos com banco de dados MySQL",
-    image: "/projects/exemplo.png",
-    tags: ["API", "MySQL", "Express"],
-    deployURL: "#",
+    image: "/projects/image3.png",
+    tags: ["API", "MySQL", "Node", "Bootstrap"],
+    deployURL: "https://api-gerenciamento-produto.vercel.app/",
     githubURL: "#",
   },
   {
     id: 2,
-    title: "Simulador de Trajetória",
+    title: "Portfólio pessoal",
     description:
       "Aplicação web que calcula e exibe a trajetória de um projétil com base em velocidade e ângulo, integrando frontend em React com backend em Flask",
-    image: "/projects/exemplo.png",
+    image: "/projects/image2.png",
     tags: ["React", "Flask", "API", "Recharts"],
     deployURL: "#",
     githubURL: "#",

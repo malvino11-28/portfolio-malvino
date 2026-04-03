@@ -1,5 +1,3 @@
-# PROJETO ATUALMENTE EM DESENVOLVIMENTO
-
 # Portfólio Pessoal - Kauan Malvino Garcia
 
 Bem-vindo ao meu portfólio online!  
@@ -8,8 +6,8 @@ Estou em busca da minha primeira oportunidade como **Desenvolvedor Júnior**
 
 **Site ao vivo:** [https://portfolio-malvino.vercel.app](https://portfolio-malvino.vercel.app)
 
-![](image.png)
-![](image-1.png)
+<img width="1878" height="964" alt="image" src="https://github.com/user-attachments/assets/d71a16eb-ecbe-414d-bef1-7f7f959afc5d" />
+<img width="1878" height="964" alt="image" src="https://github.com/user-attachments/assets/b055b356-9660-4144-ae5d-56ef0bbd3cbc" />
 
 ## Sobre mim
 
