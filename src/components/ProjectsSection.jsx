@@ -29,7 +29,7 @@ const projects = [
       "Sistema de autenticação desenvolvido com Flask e MySQL, permitindo cadastro e login de usuários com segurança.",
     image: "/projects/image.png",
     tags: ["Python", "Flask", "MySQL"],
-    deployURL: "#",
+    deployURL: "autenticador-flask-production.up.railway.app/",
     githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
   },
 ];
@@ -57,7 +57,7 @@ export const ProjectSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full object-cover transition-transform duration-500 group-hover:scale-100"
+                  className="w-full object-cover transition-transform duration-500 group-hover:scale-100 mt-7.5"
                 />
               </div>
 
