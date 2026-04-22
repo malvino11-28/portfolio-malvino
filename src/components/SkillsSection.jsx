@@ -2,27 +2,59 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 65, category: "frontend" },
-  { name: "JavaScript", level: 60, category: "frontend" },
-  { name: "React", level: 25, category: "frontend" },
-  { name: "Next.js", level: 20, category: "frontend" },
-  { name: "Bootstrap", level: 60, category: "frontend" },
-  { name: "Tailwind CSS", level: 25, category: "frontend" },
+  {
+    name: "HTML/CSS",
+    level: 65,
+    leveln: "Intermediário",
+    category: "frontend",
+  },
+  {
+    name: "JavaScript",
+    level: 60,
+    leveln: "Intermediário",
+    category: "frontend",
+  },
+  { name: "React", level: 25, leveln: "Iniciante", category: "frontend" },
+  {
+    name: "Bootstrap",
+    level: 60,
+    leveln: "Intermediário",
+    category: "frontend",
+  },
 
   // Backend
-  { name: "Node.js", level: 55, category: "backend" },
-  { name: "Express", level: 50, category: "backend" },
-  { name: "Python", level: 50, category: "backend" },
-  { name: "MySQL", level: 50, category: "backend" },
-  { name: "REST APIs", level: 60, category: "backend" },
+  { name: "Node.js", level: 55, leveln: "Básico", category: "backend" },
+  { name: "Express", level: 50, leveln: "Básico", category: "backend" },
+  { name: "PHP", level: 50, leveln: "Básico", category: "backend" },
+  { name: "MySQL", level: 50, leveln: "Básico", category: "backend" },
+  {
+    name: "REST APIs",
+    level: 60,
+    leveln: "Intermediário",
+    category: "backend",
+  },
 
   // Tools
-  { name: "Git/GitHub", level: 65, category: "tools" },
-  { name: "VS Code", level: 70, category: "tools" },
-  { name: "Dev-C++", level: 70, category: "tools" },
-  { name: "Postman", level: 50, category: "tools" },
-  { name: "Vite", level: 25, category: "tools" },
-  { name: "Word", level: 70, category: "tools" },
+  { name: "Git/GitHub", level: 65, leveln: "Intermediário", category: "tools" },
+  {
+    name: "VS Code",
+    level: 70,
+    leveln: "Intermediário/avançado",
+    category: "tools",
+  },
+  {
+    name: "Dev-C++",
+    level: 70,
+    leveln: "Intermediário/avançado",
+    category: "tools",
+  },
+  { name: "Postman", level: 50, leveln: "Básico", category: "tools" },
+  {
+    name: "Word",
+    level: 70,
+    leveln: "Intermediário/avançado",
+    category: "tools",
+  },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -76,7 +108,7 @@ export const SkillsSection = () => {
 
                 <div className="text-right mt-1">
                   <span className="text-sm text-muted-foreground">
-                    {skill.level}%
+                    {skill.leveln}
                   </span>
                 </div>
               </div>
