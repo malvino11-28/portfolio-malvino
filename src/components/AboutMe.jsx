@@ -10,13 +10,13 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Desenvolvedor backend em formação
+              Desenvolvedor Web em formação
             </h3>
 
             <p className="text-muter-foreground">
-              Análise e Desenvolvimento de Sistemas, com foco em back-end. 1 ano
-              de experiência de estudos em Node.js, Python e APIs. Focado em
-              lógica, organização e eficiência.
+              Análise e Desenvolvimento de Sistemas, com foco em aplicações Web.
+              1 ano e meio de experiência de estudos em Node.js, Python e APIs.
+              Focado em lógica, organização e eficiência.
             </p>
 
             <p className="text-muter-foreground">
