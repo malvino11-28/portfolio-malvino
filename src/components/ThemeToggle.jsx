@@ -4,6 +4,16 @@ import { cn } from "@/lib/utils";
 
 export const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     const storageTheme = localStorage.getItem("theme");
@@ -31,8 +41,12 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
-        "fixed max-sm:right-25 max-sm:top-5 max-sm:z-50 top-4 right-5 z-50 p-2 rounded-full transition-colors duration-300",
+        "fixed max-sm:right-25 max-sm:top-2 max-sm:z-50 top-1 right-5 z-50 p-2 rounded-full transition-colors duration-300",
         "focus:outline-hidden",
+        "transition-all duration-300",
+        isScrolled
+          ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
+          : "py-5",
       )}
     >
       {" "}
