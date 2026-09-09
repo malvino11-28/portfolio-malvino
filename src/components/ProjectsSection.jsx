@@ -4,13 +4,13 @@ import { GithubIcon } from "./GithubIcon.jsx";
 const projects = [
   {
     id: 1,
-    title: "API com MySQL",
+    title: "Maiden-Gate",
     description:
-      "API REST desenvolvida com express para gerenciamento de produtos com banco de dados MySQL",
-    image: "/projects/image3.png",
-    tags: ["MySQL", "Node", "Bootstrap"],
-    deployURL: "https://api-gerenciamento-produto.vercel.app/",
-    githubURL: "https://github.com/malvino11-28/api-gerenciamento-produto",
+      "Aplicação full-stack desenvolvida com React, Tailwind, Laravel e PostgreSQL para gestão do RPG de mesa VOF.",
+    image: "/projects/image5.png",
+    tags: ["PostgreSQL", "Laravel", "React"],
+    deployURL: "https://maiden-gate-six.vercel.app",
+    githubURL: "https://github.com/malvino11-28/maiden-gate",
   },
   {
     id: 2,
@@ -24,13 +24,33 @@ const projects = [
   },
   {
     id: 3,
+    title: "Sistema Comercial",
+    description:
+      "Sistema de Gestão Comercial acadêmico em C para terminal com persistência em arquivos binários.",
+    image: "/projects/image4.png",
+    tags: ["Python", "Flask", "MySQL"],
+    deployURL: "autenticador-flask-production.up.railway.app/",
+    githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
+  },
+  {
+    id: 4,
     title: "Autenticador Flask",
     description:
-      "Sistema de autenticação desenvolvido com Flask e MySQL, permitindo cadastro e login de usuários com segurança.",
+      "Sistema de autenticação desenvolvido com Flask e MySQL, permitindo cadastro e login de usuários.",
     image: "/projects/image.png",
     tags: ["Python", "Flask", "MySQL"],
     deployURL: "autenticador-flask-production.up.railway.app/",
     githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
+  },
+  {
+    id: 5,
+    title: "API com MySQL",
+    description:
+      "API REST desenvolvida com express para gerenciamento de produtos com banco de dados MySQL",
+    image: "/projects/image3.png",
+    tags: ["MySQL", "Node", "Bootstrap"],
+    deployURL: "https://api-gerenciamento-produto.vercel.app/",
+    githubURL: "https://github.com/malvino11-28/api-gerenciamento-produto",
   },
 ];
 
