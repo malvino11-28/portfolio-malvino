@@ -15,16 +15,16 @@ export const AboutSection = () => {
 
             <p className="text-muter-foreground">
               Análise e Desenvolvimento de Sistemas, com foco em aplicações Web.
-              1 ano e meio de experiência de estudos em Node.js, Python e APIs.
-              Focado em lógica, organização e eficiência.
+              2 anos de experiência de estudos em lógica de programação, Node.js
+              e APIs. Focado em autonomia, organização e eficiência.
             </p>
 
             <p className="text-muter-foreground">
               Também possuo conhecimentos em React aplicados em projetos de
-              estudo, incluindo este portfólio. Atualmente atuo como estagiário
-              com foco em organização de dados e suporte técnico, e busco minha
-              primeira oportunidade na área de desenvolvimento para evoluir na
-              prática e contribuir em projetos reais.
+              estudo, incluindo este portfólio. Atualmente busco minha primeira
+              oportunidade na área de desenvolvimento para evoluir na prática e
+              contribuir em projetos reais, já tendo experiência como estagiário
+              com foco em organização de dados e suporte interno.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

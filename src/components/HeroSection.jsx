@@ -21,9 +21,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Desenvolvedor com foco em Web, com experiência em JavaScript,
-            Node.js e C/C++. Desenvolvo APIs e aplicações web, em busca da
-            primeira como dev para evoluir na área.
+            Desenvolvedor com foco em Web, com experiência em SQL, Node.js e
+            PHP. Desenvolvo APIs e aplicações web, em busca de oportunidades
+            como dev para evoluir na área.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
