@@ -28,9 +28,9 @@ const projects = [
     description:
       "Sistema de Gestão Comercial acadêmico em C para terminal com persistência em arquivos binários.",
     image: "/projects/image4.png",
-    tags: ["Python", "Flask", "MySQL"],
-    deployURL: "autenticador-flask-production.up.railway.app/",
-    githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
+    tags: ["C", "Dev-C++", "Ordenação"],
+    deployURL: "#",
+    githubURL: "https://github.com/malvino11-28/software-pi-II",
   },
   {
     id: 4,
