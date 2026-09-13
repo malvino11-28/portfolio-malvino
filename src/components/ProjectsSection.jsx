@@ -14,6 +14,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "Linudex",
+    description:
+      "Reaproveitamento de um Samsung Galaxy S10+ como desktop ARM com Debian, XFCE, Termux e Samsung DeX.",
+    image: "/projects/image6.png",
+    tags: ["Shell", "Linux", "Android"],
+    deployURL: "#",
+    githubURL: "https://github.com/malvino11-28/linudex",
+  },
+  {
+    id: 3,
     title: "Portfólio pessoal",
     description:
       "Aplicação web desenvolvida com React e Tailwind CSS para apresentação de projetos, habilidades e contato. ",
@@ -23,7 +33,7 @@ const projects = [
     githubURL: "https://github.com/malvino11-28/portfolio-malvino",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sistema Comercial",
     description:
       "Sistema de Gestão Comercial acadêmico em C para terminal com persistência em arquivos binários.",
@@ -33,7 +43,7 @@ const projects = [
     githubURL: "https://github.com/malvino11-28/software-pi-II",
   },
   {
-    id: 4,
+    id: 5,
     title: "Autenticador Flask",
     description:
       "Sistema de autenticação desenvolvido com Flask e MySQL, permitindo cadastro e login de usuários.",
@@ -43,7 +53,7 @@ const projects = [
     githubURL: "https://github.com/malvino11-28/Autenticador-Flask",
   },
   {
-    id: 5,
+    id: 6,
     title: "API com MySQL",
     description:
       "API REST desenvolvida com express para gerenciamento de produtos com banco de dados MySQL",
